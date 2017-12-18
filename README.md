@@ -5,7 +5,6 @@
 [![Stackage Nightly](http://stackage.org/package/html-entity-map/badge/nightly)](http://stackage.org/nightly/package/html-entity-map)
 [![Stackage LTS](http://stackage.org/package/html-entity-map/badge/lts)](http://stackage.org/lts/package/html-entity-map)
 [![Build Status](https://travis-ci.org/mrkkrp/html-entity-map.svg?branch=master)](https://travis-ci.org/mrkkrp/html-entity-map)
-[![Coverage Status](https://coveralls.io/repos/mrkkrp/html-entity-map/badge.svg?branch=master&service=github)](https://coveralls.io/github/mrkkrp/html-entity-map?branch=master)
 
 The package contains a mechanically generated map from HTML5 entity names to
 the corresponding Unicode characters.
