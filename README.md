@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.org/mrkkrp/html-entity-map.svg?branch=master)](https://travis-ci.org/mrkkrp/html-entity-map)
 
 The package contains a mechanically generated map from HTML5 entity names to
-the corresponding Unicode characters.
+the corresponding Unicode text.
 
 The map is generated using this code:
 
