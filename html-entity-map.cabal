@@ -9,9 +9,9 @@ maintainer:           Mark Karpov <markkarpov92@gmail.com>
 homepage:             https://github.com/mrkkrp/html-entity-map
 bug-reports:          https://github.com/mrkkrp/html-entity-map/issues
 category:             HTML
-synopsis:             Map from HTML5 entity names to the corresponding Unicode characters
+synopsis:             Map from HTML5 entity names to the corresponding Unicode text
 build-type:           Simple
-description:          A mechanically generated map from HTML5 entity names to the corresponding Unicode characters.
+description:          Map from HTML5 entity names to the corresponding Unicode text.
 extra-doc-files:      CHANGELOG.md
                     , README.md
 
