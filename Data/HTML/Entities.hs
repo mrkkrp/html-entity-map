@@ -16,14 +16,14 @@ module Data.HTML.Entities
   ( htmlEntityMap )
 where
 
-import Data.Map.Strict (Map, fromList)
+import Data.HashMap.Strict (HashMap, fromList)
 import Data.Text (Text)
 
 -- | Map from HTML5 entity names to the corresponding characters. The names
 -- do not include the starting @&@ and the ending @;@, only the name itself.
 
 {-# NOINLINE htmlEntityMap #-}
-htmlEntityMap :: Map Text Char
+htmlEntityMap :: HashMap Text Char
 htmlEntityMap =
 
   -- NOTE This is a mechanically generated code, DO NOT edit. To
