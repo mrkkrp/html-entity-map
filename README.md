@@ -18,7 +18,7 @@ https://github.com/mrkkrp/html-entity-map-gen
 Issues, bugs, and questions may be reported in [the GitHub issue tracker for
 this project](https://github.com/mrkkrp/html-entity-map/issues).
 
-Pull requests are also welcome and will be reviewed quickly.
+Pull requests are also welcome.
 
 ## License
 
