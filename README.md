@@ -6,8 +6,8 @@
 [![Stackage LTS](http://stackage.org/package/html-entity-map/badge/lts)](http://stackage.org/lts/package/html-entity-map)
 ![CI](https://github.com/mrkkrp/html-entity-map/workflows/CI/badge.svg?branch=master)
 
-The package contains a mechanically generated map from HTML5 entity names to
-the corresponding Unicode text.
+The library contains a pre-generated map from HTML5 entity names to the
+corresponding Unicode `Text`.
 
 The map is generated using this code:
 

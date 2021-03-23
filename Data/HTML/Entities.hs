@@ -9,8 +9,8 @@
 -- Stability   :  experimental
 -- Portability :  portable
 --
--- This module contains a mechanically generated map from HTML5 entity names
--- to the corresponding Unicode text.
+-- This module contains a pre-generated map from HTML5 entity names to the
+-- corresponding Unicode 'Text'.
 module Data.HTML.Entities
   ( htmlEntityMap,
   )
@@ -20,12 +20,10 @@ import Data.HashMap.Strict (HashMap, fromList)
 import Data.Text (Text)
 
 -- | Map from HTML5 entity names to the corresponding Unicode text. The
--- names do not include the starting @&@ and the ending @;@, only the name
--- itself.
+-- names do not include the starting @&@ and the ending @;@.
 htmlEntityMap :: HashMap Text Text
 htmlEntityMap =
-  -- NOTE This is a mechanically generated code, DO NOT edit. To
-  -- regenerate, please see:
+  -- NOTE This is a generated code, DO NOT edit. To regenerate, please see:
   --
   -- https://github.com/mrkkrp/html-entity-map-gen.
   fromList
