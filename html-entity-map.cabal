@@ -55,7 +55,7 @@ benchmark bench
     default-language: Haskell2010
     build-depends:
         base >=4.13 && <5.0,
-        criterion >=0.6.2.1 && <1.6,
+        criterion >=0.6.2.1 && <1.7,
         html-entity-map,
         text >=0.2 && <2.1,
         unordered-containers >=0.2.5 && <0.3
