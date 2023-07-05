@@ -2,8 +2,8 @@ module Main (main) where
 
 import Criterion.Main
 import Data.HTML.Entities
-import qualified Data.HashMap.Strict as M
-import qualified Data.Text as T
+import Data.HashMap.Strict qualified as M
+import Data.Text qualified as T
 
 -- | I used this to decide whether using @unordered-containers@ makes sense
 -- or @containers@ will do.
