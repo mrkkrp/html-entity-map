@@ -5,7 +5,7 @@ license:         BSD-3-Clause
 license-file:    LICENSE.md
 maintainer:      Mark Karpov <markkarpov92@gmail.com>
 author:          Mark Karpov <markkarpov92@gmail.com>
-tested-with:     ghc ==9.2.8 ghc ==9.4.7 ghc ==9.6.2
+tested-with:     ghc ==9.4.7 ghc ==9.6.3 ghc ==9.8.1
 homepage:        https://github.com/mrkkrp/html-entity-map
 bug-reports:     https://github.com/mrkkrp/html-entity-map/issues
 synopsis:
@@ -33,8 +33,8 @@ library
     exposed-modules:  Data.HTML.Entities
     default-language: GHC2021
     build-depends:
-        base >=4.15 && <5.0,
-        text >=0.2 && <2.1,
+        base >=4.15 && <5,
+        text >=0.2 && <2.2,
         unordered-containers >=0.2.5 && <0.3
 
     if flag(dev)
@@ -51,10 +51,10 @@ benchmark bench
     hs-source-dirs:   bench
     default-language: GHC2021
     build-depends:
-        base >=4.15 && <5.0,
+        base >=4.15 && <5,
         criterion >=0.6.2.1 && <1.7,
         html-entity-map,
-        text >=0.2 && <2.1,
+        text >=0.2 && <2.2,
         unordered-containers >=0.2.5 && <0.3
 
     if flag(dev)
