@@ -4,7 +4,7 @@
 [![Hackage](https://img.shields.io/hackage/v/html-entity-map.svg?style=flat)](https://hackage.haskell.org/package/html-entity-map)
 [![Stackage Nightly](http://stackage.org/package/html-entity-map/badge/nightly)](http://stackage.org/nightly/package/html-entity-map)
 [![Stackage LTS](http://stackage.org/package/html-entity-map/badge/lts)](http://stackage.org/lts/package/html-entity-map)
-![CI](https://github.com/mrkkrp/html-entity-map/workflows/CI/badge.svg?branch=master)
+[![CI](https://github.com/mrkkrp/html-entity-map/actions/workflows/ci.yaml/badge.svg)](https://github.com/mrkkrp/html-entity-map/actions/workflows/ci.yaml)
 
 The library contains a pre-generated map from HTML5 entity names to the
 corresponding Unicode `Text`.
